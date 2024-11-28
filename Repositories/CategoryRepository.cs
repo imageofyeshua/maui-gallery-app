@@ -18,8 +18,13 @@ namespace MauiGalleryApp.Repositories
                 Components = new List<Component> {
                     new Component {
                         Title = "StackLayout",
-                        Description = "Some Description",
+                        Description = "Stack Layout Page",
                         Page = typeof(StackLayoutPage)
+                    },
+                    new Component {
+                        Title = "Grid",
+                        Description = "Grid Layout Page",
+                        Page = typeof(GridLayoutPage)
                     }
                 }
             });

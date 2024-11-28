@@ -3,11 +3,21 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiGalleryApp.Views.Layouts.StackLayoutPage"
              Title="StackLayoutPage">
-    <VerticalStackLayout>
-        <Label 
-            Margin="20"
-            Text="StackLayout Page"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <StackLayout Orientation="Vertical" Spacing="20" Padding="20" Margin="20" BackgroundColor="Azure">
+        <Label Text="Hello World" />
+        <StackLayout Spacing="20" Orientation="Horizontal" BackgroundColor="Beige" HeightRequest="200">
+            <Button Text="Daniel Park" HorizontalOptions="Start" VerticalOptions="Center" />
+            <Button Text="Daniel Park" HorizontalOptions="Start" VerticalOptions="Fill" />
+            <Button Text="Daniel Park" HorizontalOptions="Start" VerticalOptions="EndAndExpand" />
+        </StackLayout>
+        <VerticalStackLayout Spacing="10">
+            <Label Text="Hello World" BackgroundColor="CornflowerBlue" Padding="20" />
+            <Label Text="Hello World" BackgroundColor="CornflowerBlue" Margin="20"/>
+        </VerticalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Hello World" BackgroundColor="CornflowerBlue" Padding="20" />
+            <Label Text="Hello World" BackgroundColor="CornflowerBlue" Margin="20"/>
+        </HorizontalStackLayout>
+        <Button Text="Daniel Park" WidthRequest="200" HeightRequest="100" HorizontalOptions="End"/>
+    </StackLayout>
 </ContentPage>
