@@ -19,10 +19,10 @@ namespace MauiGalleryApp.Repositories
                     new Component {
                         Title = "StackLayout",
                         Description = "Some Description",
-                        Page = new StackLayoutPage() 
-                    } 
+                        Page = typeof(StackLayoutPage)
+                    }
                 }
-             });
+            });
 
             return categories;
         }

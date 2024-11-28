@@ -4,7 +4,7 @@
              x:Class="MauiGalleryApp.Views.Menu"
              Title="Menu"
              Padding="20"
-             BackgroundColor="#F3F3F3"
+             BackgroundColor="#32364D"
              >
     <VerticalStackLayout Spacing="10">
         <Label 
@@ -14,7 +14,11 @@
             FontFamily="OpenSansSemibold"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <Label Text="Home" />
+        <Label Text="Home">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="OnTapHome" />
+            </Label.GestureRecognizers>
+        </Label>
         <Label Text="Extra" />
         <Label Text="Credits" />
 
