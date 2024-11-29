@@ -25,6 +25,11 @@ namespace MauiGalleryApp.Repositories
                         Title = "Grid",
                         Description = "Grid Layout Page",
                         Page = typeof(GridLayoutPage)
+                    },
+                    new Component {
+                        Title = "Absolute",
+                        Description = "Absolute Layout Page",
+                        Page = typeof(AbsoluteLayoutPage)
                     }
                 }
             });
