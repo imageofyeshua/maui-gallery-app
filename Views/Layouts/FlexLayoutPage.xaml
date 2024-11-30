@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiGalleryApp.Views.Layouts.FlexLayoutPage"
+             Title="FlexLayoutPage">
+
+    <FlexLayout Direction="Row" Wrap="Wrap" AlignContent="Center" AlignItems="Start" JustifyContent="SpaceEvenly">
+        <Label Text="Hello Daniel" FlexLayout.Order="3" FlexLayout.Basis="50" Padding="10" TextColor="Black" BackgroundColor="SandyBrown"/>
+        <Label Text="Hello Jason" FlexLayout.Order="2" FlexLayout.Grow="1" FlexLayout.AlignSelf="Center" Padding="10" BackgroundColor="SaddleBrown"/>
+        <Label Text="Hello Eunice" FlexLayout.Order="1" FlexLayout.Grow="1" FlexLayout.AlignSelf="End" Padding="10" BackgroundColor="RosyBrown"/>
+        <Label Text="Hello Issac" FlexLayout.Order="0" FlexLayout.Basis="20%" FlexLayout.AlignSelf="Stretch" Padding="10" BackgroundColor="DeepSkyBlue"/>
+        <Label Text="Hello There" FlexLayout.Shrink="0" FlexLayout.Order="4" BackgroundColor="ForestGreen" TextColor="White" Padding="10" />
+        <Label Text="Hello There" FlexLayout.Order="4" BackgroundColor="Aquamarine" TextColor="DarkSlateGrey" Padding="10" />
+        <Label Text="Hello There" FlexLayout.Order="4" BackgroundColor="Aquamarine" TextColor="DarkSlateGrey" Padding="10" />
+    </FlexLayout>
+</ContentPage>

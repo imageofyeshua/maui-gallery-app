@@ -30,6 +30,11 @@ namespace MauiGalleryApp.Repositories
                         Title = "Absolute",
                         Description = "Absolute Layout Page",
                         Page = typeof(AbsoluteLayoutPage)
+                    },
+                    new Component {
+                        Title = "Flex",
+                        Description = "Flex Layout Page",
+                        Page = typeof(FlexLayoutPage)
                     }
                 }
             });
