@@ -55,6 +55,12 @@ namespace MauiGalleryApp.Repositories
                         Title = "Label",
                         Description = "Label Page",
                         Page = typeof(LabelPage)
+                    },
+                    new Component
+                    {
+                        Title = "Button",
+                        Description = "Button Page",
+                        Page = typeof(ButtonPage)
                     }
                 }
             });
