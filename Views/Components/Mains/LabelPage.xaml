@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiGalleryApp.Views.Components.Mains.LabelPage"
+             Title="LabelPage">
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="TEXT" BackgroundColor="DimGray" Padding="10" HorizontalTextAlignment="Center" />
+        <Label 
+            Text="Hello Daniel"
+            TextColor="Coral"
+            TextDecorations="Underline"
+            TextTransform="Uppercase"
+            />
+        <Label 
+            Text="하늘에 계신 아버지여 이름이 거룩히 여김을 받으시오며,"
+            FontAttributes="Bold"
+            FontFamily="NanumMyeongjoRegular"
+            TextColor="NavajoWhite"
+            />
+        <Label
+            Text="He also causes all—the small and the great, the rich and the poor, the free and the slave—to receive a mark on their right hand or upon their forehead. And so no one can buy or sell unless he has the mark—either the name of the beast or the number of his name. Here is wisdom: let the one who has understanding calculate the number of the beast, for it is a number of a man, and his number is 666.He also causes all—the small and the great, the rich and the poor, the free and the slave—to receive a mark on their right hand or upon their forehead. And so no one can buy or sell unless he has the mark—either the name of the beast or the number of his name. Here is wisdom: let the one who has understanding calculate the number of the beast, for it is a number of a man, and his number is 666."
+            MaxLines="7"
+            LineHeight="1"
+            LineBreakMode="WordWrap"
+            />
+        <Label Padding="10">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Our Father in heaven" TextDecorations="Underline" TextColor="CadetBlue" />
+                    <Span Text=" sanctified be Thy Name" TextColor="Beige" />
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label Text="HTML" BackgroundColor="DimGray" Padding="10" HorizontalTextAlignment="Center" />
+        <Label TextType="Html">
+            <Label.Text>
+                <![CDATA[
+                <i>Welcome Aboard, Everyone!</i> <br /> <strong>How are you?</strong>
+                ]]>
+            </Label.Text>
+        </Label>
+    </VerticalStackLayout>
+</ContentPage>

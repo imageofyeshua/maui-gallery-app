@@ -1,4 +1,5 @@
 ﻿using MauiGalleryApp.Models;
+using MauiGalleryApp.Views.Components.Mains;
 using MauiGalleryApp.Views.Layouts;
 
 namespace MauiGalleryApp.Repositories
@@ -35,6 +36,25 @@ namespace MauiGalleryApp.Repositories
                         Title = "Flex",
                         Description = "Flex Layout Page",
                         Page = typeof(FlexLayoutPage)
+                    }
+                }
+            });
+            categories.Add(new Category
+            {
+                Name = "Components (Views)",
+                Components = new List<Component>
+                {
+                    new Component
+                    {
+                        Title = "BoxView",
+                        Description = "BoxView Page",
+                        Page = typeof(BoxViewPage)
+                    },
+                    new Component
+                    {
+                        Title = "Label",
+                        Description = "Label Page",
+                        Page = typeof(LabelPage)
                     }
                 }
             });
